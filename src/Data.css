@@ -1,0 +1,133 @@
+#navbar {
+  height: 100px;
+  width: 100%;
+  background-color: #470414;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.logo-section img {
+  height: 18%;
+  width: 18%;
+  position: relative;
+  left: 60px;
+  top: 5px;
+}
+#logo-list {
+  user-select: none;
+}
+#logo-list li:hover {
+  color: blueviolet;
+  transition: 0.1s all ease-in;
+}
+
+#logo-list li {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  display: inline;
+  margin: 30px;
+  font-size: 26px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  bottom: 45px;
+  font-weight: bold;
+  left: 900px;
+  color: aliceblue;
+}
+
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  bottom: 45px;
+}
+#enroll {
+  text-decoration: none;
+  color: aliceblue;
+}
+#enroll:hover {
+  color: blueviolet;
+  transition: 0.1s all ease-in;
+}
+.poping-section {
+  width: 100%;
+  height: 80px;
+  background-color: #470414;
+  color: white;
+  position: relative;
+  bottom: 45px;
+}
+.blink {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.blink a {
+  text-decoration: none;
+}
+
+#checkbtn {
+  float: right;
+  line-height: 90px;
+  margin-right: 10px;
+  font-size: 30px;
+  color: rgb(164, 164, 164);
+  display: none;
+}
+
+#check {
+  display: none;
+}
+@media screen and (max-width: 895px) {
+  .logo-section img {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 21px;
+    left: 20px;
+  }
+  #checkbtn {
+    display: block;
+  }
+  #logo-list {
+    width: 100%;
+    height: 100vw;
+
+    position: fixed;
+    top: 90px;
+    left: -100%;
+  }
+  #logo-list li {
+    display: block;
+    text-align: center;
+    display: none;
+  }
+
+  /* #check:checked ~ul{
+left: 0%;
+} */
+
+  #checkbtn {
+    height: 40%px;
+    width: 40%;
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+  }
+  #carouselExample {
+    position: relative;
+    bottom: 6px;
+    height: 354px;
+  }
+  #carouselExample img {
+    height: 100%;
+    width: 100%;
+  }
+ 
+  }
+
