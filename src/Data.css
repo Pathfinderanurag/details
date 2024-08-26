@@ -1,11 +1,13 @@
 #navbar {
-  height: 100px;
+  height: 130px;
   width: 100%;
   background-color: #470414;
+
 }
 * {
   margin: 0;
   padding: 0;
+ 
 }
 body {
   box-sizing: border-box;
@@ -37,7 +39,7 @@ body {
   position: relative;
   bottom: 45px;
   font-weight: bold;
-  left: 900px;
+  left: 800px;
   color: aliceblue;
 }
 
@@ -45,7 +47,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  bottom: 45px;
+  bottom: 30px;
 }
 #enroll {
   text-decoration: none;
@@ -57,7 +59,7 @@ body {
 }
 .poping-section {
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-color: #470414;
   color: white;
   position: relative;

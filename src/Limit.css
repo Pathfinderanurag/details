@@ -1,9 +1,9 @@
 .body-section {
   background-color: #fcc736;
   width: 100%;
-  height: 600px;
+  height: 700px;
   position: relative;
-top: 1380px;
+  top: 1210px;
 }
 #body-text {
   font-size: 70px;
@@ -45,47 +45,45 @@ top: 1380px;
   width: 100%;
   height: 750px;
   position: relative;
-  top: 1350px;
+  top: 1200px;
 }
 #image-one {
   height: 590px;
-  width:1000px;
+  width: 1000px;
 
   position: relative;
-  left: 70px;
+  left: 40px;
   top: 60px;
-  
 }
 #image-one img {
   height: 100%;
   width: 100%;
   border-radius: 10px;
 }
-.image-two{
-  background-color: aqua;
+.image-two {
   height: 590px;
-  width:1000px;
+  width: 1000px;
   border-radius: 10px;
   position: relative;
-  left: 1200px;
-  bottom: 520px;
+  left: 1090px;
+  bottom: 530px;
   border-radius: 10px;
-
 }
-.image-two img{
+.image-two img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 .notice {
   display: flex;
-  height: 600px;
+  height: 700px;
   justify-content: space-evenly;
   background-color: #ffffff;
   position: relative;
-  top: 1350px;
+  top: 1250px;
 }
 .notice-item {
-  height: 350px;
+  height: 450px;
   width: 80%;
   background-color: #bbbbbb;
   margin: 20px;
@@ -96,16 +94,16 @@ top: 1380px;
   display: flex;
   height: 450px;
   justify-content: space-evenly;
-  background-color: #fff4f4;
+
   position: relative;
-  top: 1450px;
+  top: 1350px;
 }
 .notice img {
-  height: 100%  ;
+  height: 100%;
   width: 100%;
 }
 .item {
-  height: 330px;
+  height: 430px;
   width: 80%;
 
   margin: 20px;
@@ -132,7 +130,19 @@ top: 1380px;
   top: 1550px;
   left: 250px;
 }
+#zoom {
 
+  /* (B) ANIMATE ZOOM */
+  /* ease | ease-in | ease-out | linear */
+  transition: transform ease-in-out 0.3s;
+}
+ 
+/* (C) ZOOM ON HOVER */
+#zoom:hover { transform: scale(1.2);
+
+    -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+} 
 .praogram img {
   height: 100%;
   width: 100%;

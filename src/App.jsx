@@ -1,5 +1,5 @@
 
-import './App.css'
+
 import './Data.css'
 import './Limit.css'
 import Course from './Course'

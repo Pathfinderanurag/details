@@ -3,16 +3,16 @@ function Navbar() {
     <>
       <div id="navbar">
         <div className="logo-section">
-          <img src="public\logo.png" alt="" />
+          <img src="src\images\logo.png" alt="" />
         </div>
-        
+
         <div className="menu-list">
-        <>
-  <input type="checkbox" name="" id="check" />
-  <label htmlFor="check" id="checkbtn">
-    <i className="fa fa-bars" />
-  </label>
-</>
+          <>
+            <input type="checkbox" name="" id="check" />
+            <label htmlFor="check" id="checkbtn">
+              <i className="fa fa-bars" />
+            </label>
+          </>
 
           <ul id="logo-list">
             <li>ABOUT MUIT</li>
@@ -35,14 +35,15 @@ function Navbar() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="public\8a8ce13f-3bdb-43c4-a235-94767d294843_ENGINEERING&TECHNOLOGY.jpg"
+                src="src\images\8a8ce13f-3bdb-43c4-a235-94767d294843_ENGINEERING&TECHNOLOGY.jpg"
                 className="d-block w-100 h-20"
                 alt="..."
               />
+              
             </div>
             <div className="carousel-item active">
               <img
-                src="public\42489376-509b-4c9a-817b-1cd276360580_TM1920x1080px.png"
+                src="src\images\42489376-509b-4c9a-817b-1cd276360580_TM1920x1080px.png"
                 className="d-block w-100"
                 alt="..."
               />
@@ -50,21 +51,21 @@ function Navbar() {
 
             <div className="carousel-item">
               <img
-                src="public\79bc8bd7-5653-4e2e-a2f2-c4cf9b46b44b_law.jpg"
+                src="src\images\79bc8bd7-5653-4e2e-a2f2-c4cf9b46b44b_law.jpg"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="  public\data.jpg"
+                src=" src\images\data.jpg"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="public\5e0a9202-eff5-41a6-90d0-61ba32929ff7_slider.jpg"
+                src="src\images\5e0a9202-eff5-41a6-90d0-61ba32929ff7_slider.jpg"
                 className="d-block w-100"
                 alt="..."
               />

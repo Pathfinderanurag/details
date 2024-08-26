@@ -23,7 +23,7 @@ function Course() {
           <img src="https://muitnoida.edu.in/upload/Image/eed00c8e-e46e-4d03-80bb-315b33f96443_DSC09336.JPG " alt="" />
         </div>
         <div className="image-two">
-<img src="public\name.png" alt="" />
+<img src="src\images\name.png" alt="" />
         </div>
       </div>{" "}
     
@@ -73,7 +73,7 @@ function Course() {
       </div>
       <div className="events">
         <div className="praogram">
-          <img
+          <img id="zoom"
             src="https://muitnoida.edu.in/upload/Image/26b8948e-e1d7-4f40-af14-4256ed5a10a9_banner.jpg"
             alt=""
           />
@@ -82,7 +82,7 @@ function Course() {
       <>
         <div className="about">
           <div className="end-logosection">
-            <img src="public\logo.png" alt="" />
+            <img src="src\images\logo.png" alt="" />
           </div>
           <div className="address">
             <p>
